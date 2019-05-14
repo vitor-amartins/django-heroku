@@ -84,7 +84,7 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 #### Crie o arquivo *requirements.txt* com o seguinte conteúdo:
 
 ```bash
--r requirements.txt
+-r requirements-dev.txt
 gunicorn==19.9.0
 psycopg2==2.8.2
 ```
